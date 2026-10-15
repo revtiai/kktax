@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>KK Tax business card</title>
+<link rel="icon" href="/favicon.ico?v=3"><meta name="theme-color" content="#E9DCCB">
+<link rel="preload" href="/card/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="description" content="Turn it, flip it and save the print file for your KK Tax business card.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="KK Tax">
+<meta property="og:title" content="KK Tax business card"><meta property="og:description" content="Turn it, flip it and save the print file for your KK Tax business card.">
+<meta property="og:url" content="https://kktaxes.co.uk/card"><meta property="og:image" content="https://kktaxes.co.uk/og/card.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="KK Tax business card">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="KK Tax business card"><meta name="twitter:description" content="Turn it, flip it and save the print file for your KK Tax business card."><meta name="twitter:image" content="https://kktaxes.co.uk/og/card.jpg">
+<link rel="stylesheet" href="/card/card.css?v=5">
+</head><body>
+<main>
+  <header>
+    <a class="brand" href="/"><img src="/brand/kktax-logo-ink.svg" alt="KK Tax home" width="112" height="24"></a>
+    <h1>Your business card<span>.</span></h1>
+    <p class="lede">Drag the card to turn it. Tap it to flip.</p>
+  </header>
+
+  <div class="people" role="group" aria-label="Choose a person" id="people"></div>
+
+  <div class="stage" id="stage">
+    <div class="floor" id="floor" aria-hidden="true"></div>
+    <div class="tilt" id="tilt">
+      <button class="card" id="card" type="button" aria-label="Business card. Press to flip it over.">
+        <span class="slab" aria-hidden="true"></span><span class="slab" aria-hidden="true"></span><span class="slab" aria-hidden="true"></span><span class="slab" aria-hidden="true"></span><span class="slab" aria-hidden="true"></span>
+        <span class="face front">
+          <span class="grain" aria-hidden="true"></span>
+          <img class="logo" src="/brand/kktax-logo-ink.svg" alt="">
+          <span class="row">
+            <span class="who"><span class="name" data-f="name"></span><span class="role" data-f="role"></span></span>
+            <span class="ct"><span data-f="phone"></span><span data-f="email"></span><b>kktaxes.co.uk</b></span>
+          </span>
+          <span class="gloss" aria-hidden="true"><i class="hl"></i><i class="sl"></i><i class="sr"></i></span>
+        </span>
+        <span class="face back">
+          <span class="grain" aria-hidden="true"></span>
+          <img class="logo" src="/brand/kktax-logo-reverse.svg" alt="">
+          <span class="tl">Know where you stand<i>.</i></span>
+          <span class="band" aria-hidden="true"><i></i></span>
+          <span class="gloss" aria-hidden="true"><i class="hl"></i><i class="sl"></i><i class="sr"></i></span>
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button type="button" class="btn dark" id="flip">Flip card</button>
+    <button type="button" class="btn" id="contact">Save to contacts</button>
+    <button type="button" class="btn" id="print">Save print file</button>
+  </div>
+  <p class="side" id="side" role="status" aria-live="polite">Front</p>
+
+  <section class="details" aria-labelledby="d-h">
+    <h2 id="d-h">Details on the card</h2>
+    <div class="grid">
+      <div><label for="name">Name</label><input id="name" autocomplete="name"></div>
+      <div><label for="role">Job title</label><input id="role" autocomplete="organization-title"></div>
+      <div><label for="phone">Phone</label><input id="phone" autocomplete="tel" inputmode="tel"></div>
+      <div><label for="email">Email</label><input id="email" autocomplete="email" inputmode="email"></div>
+    </div>
+  </section>
+</main>
+
+<div class="print" aria-hidden="true">
+  <div class="pg pfront"><div class="trim">
+    <img src="/brand/kktax-logo-ink.svg" alt="">
+    <div class="prow"><div><div class="pname" data-f="name"></div><div class="prole" data-f="role"></div></div>
+    <div class="pct"><span data-f="phone"></span><span data-f="email"></span><b>kktaxes.co.uk</b></div></div>
+  </div></div>
+  <div class="pg pback"><div class="trim">
+    <img src="/brand/kktax-logo-reverse.svg" alt="">
+    <div class="ptl">Know where you stand<i>.</i></div>
+  </div><div class="pband"><i></i></div></div>
+</div>
+<script src="/card/card.js?v=7" defer></script>
+</body></html>
